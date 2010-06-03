@@ -4,8 +4,30 @@
   <head>
     <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
     <title>I like big butts and I cannot lie...</title>
+    <script src="http://www.google.com/jsapi?key=ABQIAAAA0-h1qV2c_K1Ot5Xo9zmAOxTTkogFZFAP9cdEFeUVOme0KKjheRQgdpcqWI5J4gEEaXKTbuOqvgmuxg" type="text/javascript"></script>
+    <script type="text/javascript">
+      google.load("swfobject", "2.1");
+    </script>    
+    <script language="Javascript" type="text/javascript">
+    //<![CDATA[
+
+      function _run() {
+        /*
+        * Simple player embed
+        */
+        var videoID = "EGtTblTR0YU";
+        var params = { allowScriptAccess: "always" };
+        var atts = { id: "ytPlayer" };
+        swfobject.embedSWF("http://www.youtube.com/v/" + videoID + "&enablejsapi=1&playerapiid=player1&autoplay=1", 
+                         "videoDiv", "100%", "100%", "8", null, null, params, atts);
+        
+      }
+      google.setOnLoadCallback(_run);
+      
+    //]]>
+    </script>
   </head>
-  <body>
-    <object width="100%" height="100%"><param name="movie" value="http://www.youtube.com/v/EGtTblTR0YU&hl=en_US&fs=1&color1=0x006699&color2=0x54abd6"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/EGtTblTR0YU&hl=en_US&fs=1&color1=0x006699&color2=0x54abd6" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="100%" height="100%"></embed></object>
+  <body style="border:0;margin:0;">
+    <div id="videoDiv">loading...</div>
   </body>
 </html>
